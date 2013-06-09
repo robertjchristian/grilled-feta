@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="grilled-feta:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/grilled_feta_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="grilled-feta/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="grilled-feta" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="com.sun.jersey:jersey-server:1.17.1" />
+          <element id="library" level="project" name="jersey-servlet-1.17.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
