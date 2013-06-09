@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+    <cron>
+        <url>/</url>
+        <description>Keep alive</description>
+        <schedule>every 10 seconds</schedule>
+    </cron>
+
+</cronentries>
