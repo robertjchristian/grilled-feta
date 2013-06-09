@@ -22,8 +22,8 @@ dev debug (intelij)
 dev deploy (intelij)
 ============
 * Tools -> Upload App Engine Application
-* Edit appengine-web.xml to point to your google app engine application and version:  <pre>
-<?xml version="1.0" encoding="utf-8"?>
+* Edit appengine-web.xml to point to your google app engine application and version:  
+<pre>
 <appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
     <application>grilled-feta</application>
     <version>1</version>
