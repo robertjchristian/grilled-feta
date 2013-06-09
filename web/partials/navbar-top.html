@@ -1,0 +1,112 @@
+<!-- add navbar-inverse class for black/google-like bar -->
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="btn btn-navbar navbar-fixed-top" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+
+            <a class="brand" href="#">grilled-feta</a>
+
+            <div class="nav-collapse collapse">
+
+                <ul class="nav">
+
+
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="icon-cog"></i>
+                            REST
+                            <b class="caret"></b>
+                        </a>
+
+                        <ul class="dropdown-menu">
+
+
+                            <li>
+
+                                <a href="/api/hello/">Test GET /api/hello</a>
+
+                            </li>
+
+                        </ul>
+                    </li>
+
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="icon-gift"></i>
+                            Components
+                            <b class="caret"></b>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <!--<li><a href="#/playground/angularstrap">AngularStrap</a></li>-->
+                            <li><a href="#/playground/accordion">Accordion</a></li>
+                            <li><a href="#/playground/alerts">Alerts</a></li>
+                            <li><a href="#/playground/buttons">Buttons</a></li>
+                            <li><a href="#/playground/date">Date</a></li>
+                            <li><a href="#/playground/datagrid">Data grid</a></li>
+                            <li><a href="#/playground/modal">Modal</a></li>
+                            <li><a href="#/playground/pagination">Pagination</a></li>
+                            <li><a href="#/playground/progress">Progress bars</a></li>
+                            <li><a href="#/playground/tabs">Tabs</a></li>
+                            <li><a href="#/playground/tooltips">Tooltips</a></li>
+                            <li><a href="#/playground/tree">Tree</a></li>
+                        </ul>
+                    </li>
+
+                    <li ng-controller="InboxCtrl" ng-show="authService.isLoggedIn()" class="dropdown">
+
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+
+                            <span>
+                              <i class="icon-envelope"></i>&nbsp;Messages ({{recentMail.length}})
+                            </span>
+
+                            <b class="caret"></b>
+
+                        </a>
+
+                        <!-- TODO mail should be managed as a service -->
+                        <ul class="dropdown-menu">
+                            <div ng-include="'partials/mail-subsections.html'"></div>
+                        </ul>
+                    </li>
+
+                    <li ng-show="authService.isLoggedIn()" class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="icon-user"></i>
+                            User
+                            <b class="caret"></b>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a href="#/">User Profile</a></li>
+                            <li><a href="#/">Change password</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+                <div class="nav navbar-form pull-right">
+                    <div ng-show="!authService.isLoggedIn()">
+
+                        <input class="span2" style="width: 100px;" ng-model="loginInput" type="text" placeholder="Email">
+                        <input ng-model="passwordInput" class="span2" style="width: 100px;" type="password" placeholder="Password">
+                        <a class="btn btn-primary" ng-click="authService.login(loginInput, passwordInput)">
+                            <i class="icon-user icon-white"></i> Log in</a>
+                    </div>
+                    <div ng-show="authService.isLoggedIn()">
+                        <a class="btn btn-primary" ng-click="authService.logout()">
+                            <i class="icon-off icon-white"></i> Log out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
