@@ -1,0 +1,39 @@
+<component name="libraryTable">
+  <library name="com.sun.jersey:jersey-servlet:1.17.1" type="repository">
+    <properties maven-id="com.sun.jersey:jersey-servlet:1.17.1" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jersey-servlet-1.17.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.servlet-api-3.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsp-api-2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/servlet-api-2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.ejb-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.transaction-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.annotation-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/weld-osgi-bundle-1.1.4.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cdi-api-1.0-SP4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsr250-api-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.inject-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/weld-api-1.1.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/weld-core-1.1.4.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/weld-spi-1.1.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javassist-3.14.0-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/guava-r06.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jboss-interceptor-spi-2.0.0.CR1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jboss-interceptor-core-2.0.0.CR1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.5.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-ext-1.5.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cal10n-api-0.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/weld-build-config-1.1.4.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javassist-3.12.0.GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/persistence-api-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ant-1.6.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/osgi_R4_core-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jersey-server-1.17.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jersey-core-1.17.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
